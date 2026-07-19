@@ -32,9 +32,9 @@ def render():
           Attendance, Projects, Internship, Certifications, Coding Skill
 
         ### Disclaimer
-        The dataset used in this app is **synthetically generated** for
+        The dataset used in this app is synthetically generated for
         demonstration purposes. Predictions are illustrative and should
-        **not** be used for real academic or hiring decisions.
+        not be used for real academic or hiring decisions.
         ---
         
         """
