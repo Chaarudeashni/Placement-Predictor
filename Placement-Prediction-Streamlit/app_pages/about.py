@@ -1,6 +1,7 @@
 import streamlit as st
 def render():
     st.title("About This Project")
+
     st.markdown(
         """
         ## Placement Prediction Streamlit App
@@ -32,10 +33,11 @@ def render():
           Attendance, Projects, Internship, Certifications, Coding Skill
 
         ### Disclaimer
-        The dataset used in this app is synthetically generated for
-        demonstration purposes. Predictions are illustrative and should
-        not be used for real academic or hiring decisions.
-        ---
-        
         """
+    )
+
+    st.caption(
+        "The dataset used in this app is synthetically generated for "
+        "demonstration purposes. Predictions are illustrative and should "
+        "not be used for real academic or hiring decisions."
     )
