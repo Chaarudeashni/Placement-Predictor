@@ -1,0 +1,61 @@
+/* style.css
+   -----------
+   Custom styling for the Placement Prediction Streamlit app.
+   Injected into the app via st.markdown(..., unsafe_allow_html=True).
+*/
+
+/* Overall app background */
+.stApp {
+    background-color: #F8FAFC;
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background-color: #1E1B4B;
+}
+section[data-testid="stSidebar"] * {
+    color: #F1F5F9 !important;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 16px 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #1E1B4B;
+    font-weight: 700;
+}
+
+/* Buttons */
+.stButton > button, .stDownloadButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+.stButton > button:hover, .stDownloadButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Dataframes */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+
+/* Expander headers */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    color: #1E1B4B;
+}
+
+/* Success / error / warning / info boxes */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
